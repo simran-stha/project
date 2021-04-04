@@ -1,0 +1,37 @@
+*{
+  background-color: #f0f0f0;
+}
+.header p{
+  margin-left: 0%;
+margin-right: 20%;
+}
+
+ p a{
+  color: red;
+  }
+  p a:hover{
+    color: black;
+    }
+p{
+  margin-left: 20%;
+margin-right: 20%;
+}
+.images ul {
+    margin-left: 20%;
+  margin-right: 20%;
+  }
+
+.images ul li {
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  }
+  .images ul li {
+    margin: 10px;
+    padding: 12px;
+  background-color: #faf2a0;
+  }
+.images ul li p{
+background-color: Black;
+color: white;
+}
