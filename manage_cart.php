@@ -12,7 +12,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
       {
         echo "<script>
         alert('Item already added');
-        window.location.href='index.php';
+        window.location.href='product.php';
         </script>";
       }
       else{
@@ -28,7 +28,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
       $_SESSION['cart'][0]=array('Item_name'=>$_POST['Item_name'],'price'=>$_POST['price'],'Quantity'=>1);
     echo"<script>
     alert('Item added');
-    window.location.href='index.php';
+    window.location.href='product.php';
     </script>";
     }
   }

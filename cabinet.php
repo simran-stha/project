@@ -47,7 +47,7 @@ include('header1.php');
         <h5 class="card-title">Wooden Kitchen cabinet</h5>
         <p class="card-text" style="color:#807c7c;">Price: Rs.85000</p>
         <button type="submit" name="Add_To_cart" class="btn btn-info">Add To Cart</button>
-<input type="hidden" name="Item_name" value="Cabinet">
+<input type="hidden" name="Item_name" value="Wooden Kitchen Cabinet">
 <input type="hidden" name="price" value="6500">
       </div>
     </div>
@@ -63,7 +63,7 @@ include('header1.php');
         <p class="card-text"  style="color:#807c7c;">Price: Rs.15000</p>
         <button type="submit" name="Add_To_cart" class="btn btn-info">Add To Cart</button>
 <input type="hidden" name="Item_name" value="Cabinet">
-<input type="hidden" name="price" value="6500">
+<input type="hidden" name="price" value="15000">
       </div>
     </div>
   </form>
@@ -76,8 +76,8 @@ include('header1.php');
         <h5 class="card-title">Alpina white kitchen cabinet</h5>
         <p class="card-text" style="color:#807c7c;">Price: Rs.10000</p>
         <button type="submit" name="Add_To_cart" class="btn btn-info">Add To Cart</button>
-<input type="hidden" name="Item_name" value="Cabinet">
-<input type="hidden" name="price" value="6500">
+<input type="hidden" name="Item_name" value="Alpina white kitchen cabinet">
+<input type="hidden" name="price" value="10000">
       </div>
     </div>
   </form>
@@ -91,8 +91,8 @@ include('header1.php');
         <h5 class="card-title">Wooden Kitchen cabinet</h5>
         <p class="card-text" style="color:#807c7c;">Price: Rs.25000</p>
         <button type="submit" name="Add_To_cart" class="btn btn-info">Add To Cart</button>
-<input type="hidden" name="Item_name" value="Cabinet">
-<input type="hidden" name="price" value="6500">
+<input type="hidden" name="Item_name" value="Wooden Kitchen cabinet">
+<input type="hidden" name="price" value="25000">
       </div>
     </div>
   </form>
