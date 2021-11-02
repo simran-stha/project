@@ -1,117 +1,75 @@
-<html>
-  <head>
-    <title>Ecommerce website</title>
-    <link rel = "stylesheet" type="text/css" href="designing.css">
-  </head>
-  <body>
-        <p>STYLE COMFORT AND<br>  AFFORDABLE</p>
+  <?php include('header.php'); ?>
+  <html>
+    <head>
+      <title>Ecommerce website</title>
+      <style media="screen">
+      h4{
+        margin-top: 45px;
+        margin-left: 17px;
+        text-align: left;
+      }
+      .image{
+        margin-left: 20px;
+        margin-right: 20px;
+      }
 
-<div class="nav">
-           <ul>
-           <li><a href="Ecommerce.php">Home</a></li>
-              <li><a href="Product.php">Products</a></li>
-                 <li><a href="categories.php">Categories</a></li>
-                 <li><a href="contact.php">Contact</a></li>
-                 <li><a href="Account.php">Account</a></li>
-                 <li><a href="#">Shop</a></li>
+          .container{
+          display: flex;
+          width: 100%;
+          padding: 1% 1%;
+          box-sizing: border-box;
+          height: 50vh;
 
-           </ul>
-</div>
-          <div class="image">
-            <script>
-            function imagechange(){
-            document.getElementById("image").src = "chair.jpg";
-            }
-            function change(){
-            document.getElementById("image").src= "furniture.jpg";
-            }
-              </script>
-              <img id="image" onmouseover = "imagechange()" onmouseout="change()" height="800px" width="1400px" src="chair.jpg" alt="image">
-              </div>
+        }
+        .box {
+          flex: 1;
+          overflow: hidden;
+          transition: .5s;
+          margin: 0 2%;
+          box-shadow: 0 20px  rgba(0,0,0,.1);
+        }
 
+        .box > img {
+          width: 100%;
+          height: calc(100% - 5vh);
+          transition: .5s;
+        }
 
-           <!-- <div class="id">
-            <h1> WELCOME!<h1>
-            <h4>Hello everyone, welcome to our page! A handful of eateries have become synonyms for pizza in Nepal,
-              but where else should people venture for the perfect slice?
-              Don't worry!! We are here to provide you the best Pizza of K-Town.
-            </h4>
-            <h2>Delivery</h2>
+        .box:hover { flex: 1 1 20%; }
+        .box:hover > img {
+          width: 50%;
+          height: 100%;
+        }
+        </style>
+    </head>
+    <body>
+      <br>
+          <h4>STYLE COMFORT AND<br>  AFFORDABLE</h4>
 
-        <div class="opt">
-          <form action="" method="post">
-            <input type="button" value="Order now">
-          </form>
-
-          </div> -->
-        <p> Find a bright ideal to suit your taste with our great selection</p>
-        <div class="container">
-          <div class="box">
-            <img src="f1.jpg">
+            <div class="image">
+              <script>
+              function imagechange(){
+              document.getElementById("image").src = "images/chair.jpg";
+              }
+              function change(){
+              document.getElementById("image").src= "images/furniture.jpg";
+              }
+                </script>
+                <img id="image" onmouseover = "imagechange()" onmouseout="change()" height="800px" width="100%" src="chair.jpg" alt="image">
+                </div>
+                <br>
+           <p><b> Find a bright ideal to suit your taste with our great selection.</b></p>
+          <div class="container">
+            <div class="box">
+              <img src="images/f1.jpg">
+            </div>
+            <div class="box">
+              <img src="images/f2.jpg">
+            </div>
+            <div class="box">
+              <img src="images/f3.jpg">
+            </div>
           </div>
-          <div class="box">
-            <img src="f2.jpg">
-          </div>
-          <div class="box">
-            <img src="f3.jpg">
-          </div>
-        </div>
-        <hr>
-
-        <table align="center" width="1410"  cellspacing="3" cellpadding="3">
-
-<tr p style="font-family:Arial Black; font-weight:700;">
-    <td>The Company:</td>
-    <td> More Information:</td>
-    <td>Explore More:</td>
-    <td>Registered Address:</td>
-</tr>
-
-<tr>
-  <td><a href = "" style="color:black; ">About Us</td>
-  <td><a href = "" style="color:black; ">Contact Us</td>
-  <td>Exchange</td>
-  <td>Woodland Furniture</td>
-</tr>
-
-<tr  p style="color:black;">
-  <td><a href = "" style="color:black; ">Help</td>
- <td> Shipping and Delivery</td>
-  <td> Gift Cards</td>
-  <td>Mid-Baneshwor, Kathmandu</td>
-</tr>
-
-<tr  p style="color:black;">
-  <td><a href = "" style="color:black; ">Team</td>
-    <td>Payment and security</td>
-    <td>Refer & Earn</td>
-     <td>Opposite of whitehouse college.</td>
-  </tr>
-
-<tr>
-  <td><a href = "" style="color:black; ">Privacy policy</td>
-  <td><a href = "" style="color:black; ">Terms of offer + sale</td>
-  <td></td>
- <td></td>
-</tr>
-</table>
-
-        <p> Connect with Us:</p><br><br>
-      <div class="social">
-        <p>
-          <ul>
-            <li><a href="https://www.facebook.com/"><img src = "fb.png" height = "30" width ="30">
-            </a></li>
-            <li><a href="E:\labworks\4thsemlabworks\Home.html"><img src = "call.png" height = "30" width ="30">
-              </a></li>
-            <li><a href="https://www.facebook.com/"><img src = "insta.png" height = "30" width ="30">
-            </a></li>
-            <li><a href="https://www.facebook.com/"><img src = "twitter.png" height = "30" width ="30">
-            </a></li>
-            <li><a href="https://www.facebook.com/"><img src = "mail.png" height = "30" width ="30">
-            </a></li>
-        </ul>
-        </p>
-</div>
-  </body>
-</html>
+      <?php include('footer.php'); ?>
+    </body>
+  </html>

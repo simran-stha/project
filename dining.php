@@ -14,12 +14,12 @@ include('header.php') ?>
     On bad days, it’s where you find comfort with a friend and a cup of coffee.   </p>
 <div class="images">
   <ul align="center">
-    <li>  <img src="dining1.jpg" height="250" width="300" alt=""> <p>Wooden Dining Table </p></li>
-        <li><img src="dining6.jfif" height="250" width="300" alt=""> <p>2 Seater Dining Table</p></li>
-    <li><img src="dining2.jfif" height="250" width="300" alt=""> <p>4 Seater Dining Table</p></li>
-      <li> <img src="dining3.jpg" height="250" width="310" alt=""> <p>6 Seater Dining Table</p></li>
-        <li> <img src="dining5.jfif" height="250" width="300" alt=""> <p>8 Seater Dining Table</p></li>
-      <li> <img src="dining4.gif" height="250" width="300" alt=""> <p> Folded Dining Table</p></li>
+    <li>  <img src="images/dining1.jpg" height="250" width="300" alt=""> <p>Wooden Dining Table </p></li>
+        <li><img src="images/dining6.jfif" height="250" width="300" alt=""> <p>2 Seater Dining Table</p></li>
+    <li><img src="images/dining2.jfif" height="250" width="300" alt=""> <p>4 Seater Dining Table</p></li>
+      <li> <img src="images/dining3.jpg" height="250" width="310" alt=""> <p>6 Seater Dining Table</p></li>
+        <li> <img src="images/dining5.jfif" height="250" width="300" alt=""> <p>8 Seater Dining Table</p></li>
+      <li> <img src="images/dining4.gif" height="250" width="300" alt=""> <p> Folded Dining Table</p></li>
 
         </ul>
 </div>

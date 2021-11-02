@@ -2,8 +2,7 @@
   <head>
         <title>our Products</title>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="product.css">
-    <style media="screen">
+        <style media="screen">
 
     .topnav a {
       color: #b6d9bf;
@@ -73,8 +72,8 @@
   </head>
   <body>
     <div class="topnav">
-      <a  href="Ecommerce.php">Home</a>
-      <a class="active" href="Product.php">Products</a>
+      <a class="active"  href="Ecommerce.php">Home</a>
+      <a  href="Product.php">Products</a>
       <a  href="categories.php">Categories</a>
       <a  href="Account.php">Account</a>
       <a href="contact.php">Contact</a>

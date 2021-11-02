@@ -14,12 +14,12 @@ include('header.php'); ?>
     What kind of chair do you need to turn your room into a serene and organized space? Have your eyes on these!   </p>
 <div class="images">
   <ul align="center">
-    <li>  <img src="chair1.jpg" height="250" width="300" alt=""> <p>Pashe chair </p></li>
-    <li> <img src="chair2.jpg" height="250" width="300" alt=""> <p>Carven Lounge chair</p></li>
-        <li><img src="chair3.jpg" height="250" width="300" alt=""> <p>Study Chair</p></li>
-    <li><img src="chair4.jpg" height="250" width="300" alt=""> <p>Robbins Lounge chair</p></li>
-      <li> <img src="chair5.jpg" height="250" width="300" alt=""> <p>Morgen Wing chair</p></li>
-              <li> <img src="chair6.jpg" height="250" width="300" alt=""> <p>Kyodo Swing chair</p></li>
+    <li>  <img src="images/chair1.jpg" height="250" width="300" alt=""> <p>Pashe chair </p></li>
+    <li> <img src="images/chair2.jpg" height="250" width="300" alt=""> <p>Carven Lounge chair</p></li>
+        <li><img src="images/chair3.jpg" height="250" width="300" alt=""> <p>Study Chair</p></li>
+    <li><img src="images/chair4.jpg" height="250" width="300" alt=""> <p>Robbins Lounge chair</p></li>
+      <li> <img src="images/chair5.jpg" height="250" width="300" alt=""> <p>Morgen Wing chair</p></li>
+              <li> <img src="images/chair6.jpg" height="250" width="300" alt=""> <p>Kyodo Swing chair</p></li>
 
         </ul>
 </div>

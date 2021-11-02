@@ -1,79 +1,59 @@
-<html>
-<body>
-  <hr>
-      <table align="center" width="1410"  cellspacing="3" cellpadding="3">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="footer.css">
+  </head>
+  <body>
+<footer>
+  <div class="footer_info expand-lg">
+    <div class="footer_width about">
+      <h2>About</h2>
+      <p><b>WoodLand Furniture</b></p><br>
+      <p>It is an interior design firm established in 2016 which aims to provide a comprehensive range of strategies to make your dream come true. We bring innovations in different kinds of traditional, modern, and contemporary designs and create the fusion of different types of plans.</p>
+      <div class="social_media">
+        <ul>
+          <li> <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li> <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+           <li> <a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li> <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </div>
 
-<tr p style="font-family:Arial Black; font-weight:700;">
-<td>The Company:</td>
-<td> More Information:</td>
-<td>Explore More:</td>
-<td>Registered Address:</td>
-</tr>
-
-<tr>
-<td><a href = "" style="color:black; text-decoration:none">About Us</td>
-<td><a href = "" style="color:black; text-decoration:none ">Contact Us</td>
-<td>Exchange</td>
-<td>Woodland Furniture</td>
-</tr>
-
-<tr  p style="color:black;">
-<td><a href = "" style="color:black;text-decoration:none " >Help</td>
-<td> Shipping and Delivery</td>
-<td> Gift Cards</td>
-<td>Mid-Baneshwor, Kathmandu</td>
-</tr>
-
-<tr  p style="color:black;">
-<td><a href = "" style="color:black; text-decoration:none ">Team</td>
-<td>Payment and security</td>
-<td>Refer & Earn</td>
-<td>Opposite of whitehouse college.</td>
-</tr>
-
-<tr>
-<td><a href = "" style="color:black; text-decoration:none">Privacy policy</td>
-<td><a href = "" style="color:black; text-decoration:none">Terms of offer + sale</td>
-<td></td>
-<td></td>
-</tr>
-</table>
-
-<p> Connect with Us:</p><br><br>
-<div class="social">
-<p>
-  <ul>
-    <li><a href="https://www.facebook.com/"><img src = "fb.png" height = "30" width ="30">
-    </a></li>
-    <li><a href="E:\labworks\4thsemlabworks\Home.html"><img src = "call.png" height = "30" width ="30">
-      </a></li>
-    <li><a href="https://www.facebook.com/"><img src = "insta.png" height = "30" width ="30">
-    </a></li>
-    <li><a href="https://www.facebook.com/"><img src = "twitter.png" height = "30" width ="30">
-    </a></li>
-    <li><a href="https://www.facebook.com/"><img src = "mail.png" height = "30" width ="30">
-    </a></li>
-</ul>
-</p>
-</div>
-
-<style media="screen">
-.social p ul{
-  float:left;
-        }
- .social ul li{
-  display:inline-grid;
-  padding: 5px;
-  }
-  .social ul li a{
-   padding: 5px 10px;
-   transition: 0.6s ease;
-   border: 1px solid black;
- }
-.social ul li a:hover{
-  background-color: #000;
-  color: #fff;
-  }
-</style>
-</body>
+    <div class="footer_width link">
+      <h2>Quick Link</h2>
+      <ul>
+        <li><a href="Ecommerce.php">Home</a></li>
+        <li><a>About</a></li>
+        <li><a>Service</a></li>
+        <li><a>FAQ</a></li>
+        <li><a>Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer_width contact">
+      <h2>Contact</h2>
+      <ul>
+        <li>
+          <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+          <p>Mid-Baneshwor, Kathmandu</p>
+        </li>
+        <li> <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+          <a href="#">shresthasimran62@gmail.com</a>
+        </li>
+          <li> <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+            <a href="#">01-4811643</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+  <div class="copy-right">
+    <p>&copy COPYRIGHT 2021 ALL RIGHTS RESERVED.</p>
+  </div>
+</footer>
+  </body>
 </html>

@@ -141,21 +141,21 @@ if($count==1) {
    <input type="text" id="icon" style="text-indent:17px;" placeholder="  Enter Email" name="email" required>
 
       <label for="psw" style="color:white;"><b>Password</b></label>
-   <input id="icon1" type="password"  id="myInput"  style="text-indent:17px;" placeholder="  Enter Password" name="psw" required>
-<input type="checkbox" onclick="myFunction()">
-<script>
-function myFunction() {
-var x = document.getElementById("myInput");
-if (x.type === "password") {
-x.type = "text";
-} else {
-x.type = "password";
-}
-}
-</script>
+      <input type="password" placeholder="Password" name="AdminPass" required="" id="id_password"><i class="far fa-eye-slash" style="margin-left: -40px; cursor: pointer;" id="togglePassword"></i>
+    <script type="text/javascript">
+    const togglePassword = document.querySelector('#togglePassword');
+    const password = document.querySelector('#id_password');
+    togglePassword.addEventListener('click', function (e) {
+    // toggle the type attribute
+    const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+    password.setAttribute('type', type);
+    // toggle the eye slash icon
+    this.classList.toggle('fa-eye-slash');
+    });
+    </script>
 
    <button type="submit" class="btn">Login</button>
-   <h2 style="color:white">Don't have an account? <a href="Account.html" style="color:lightBlue; text-decoration:none">Sign Up</a></h2>
+   <h2 style="color:white">Don't have an account? <a href="Account.php" style="color:lightBlue; text-decoration:none">Sign Up</a></h2>
    <!-- <button type="button" class="btn cancel" onclick="closeForm()">Close</button> -->
  </form>
  </div>
@@ -175,25 +175,25 @@ x.type = "password";
            <div class="image">
              <script>
              function imagechange(){
-             document.getElementById("image").src = "chair.jpg";
+             document.getElementById("image").src = "images/chair.jpg";
              }
              function change(){
-             document.getElementById("image").src= "furniture.jpg";
+             document.getElementById("image").src= "images/furniture.jpg";
              }
                </script>
-               <img id="image" onmouseover = "imagechange()" onmouseout="change()" height="800px" width="1400px" src="chair.jpg" alt="image">
+               <img id="image" onmouseover = "imagechange()" onmouseout="change()" height="800px" width="1400px" src="images/chair.jpg" alt="image">
                </div>
 
              <p> Find a bright ideal to suit your taste with our great selection</p>
          <div class="container">
            <div class="box">
-             <img src="f1.jpg">
+             <img src="images/f1.jpg">
            </div>
            <div class="box">
-             <img src="f2.jpg">
+             <img src="images/f2.jpg">
            </div>
            <div class="box">
-             <img src="f3.jpg">
+             <img src="images/f3.jpg">
            </div>
          </div>
          <hr>

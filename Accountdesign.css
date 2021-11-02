@@ -5,7 +5,7 @@
 /* Style inputs */
 
 input[type=password], select, textarea {
-  width: 5%;
+  width:500px;
   padding: 6px;
   border: 1px solid #ccc;
   margin-top: 6px;
